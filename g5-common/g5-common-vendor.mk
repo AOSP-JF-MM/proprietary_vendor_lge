@@ -82,6 +82,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib64/libfpfactory.so:system/lib64/libfpfactory.so \
     vendor/lge/g5-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \
     vendor/lge/g5-common/proprietary/lib64/liblgkm.so:system/lib64/liblgkm.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_common_core.so:system/lib64/libvss_common_core.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_common_idl.so:system/lib64/libvss_common_idl.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_common_iface.so:system/lib64/libvss_common_iface.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_dmi_qcci.so:system/lib64/libvss_dmi_qcci.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_gnss_qcci.so:system/lib64/libvss_gnss_qcci.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_ims_qcci.so:system/lib64/libvss_ims_qcci.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_nv_core.so:system/lib64/libvss_nv_core.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_nv_idl.so:system/lib64/libvss_nv_idl.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_nv_iface.so:system/lib64/libvss_nv_iface.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_resim_core.so:system/lib64/libvss_resim_core.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_resim_idl.so:system/lib64/libvss_resim_idl.so \
+    vendor/lge/g5-common/proprietary/lib64/libvss_resim_iface.so:system/lib64/libvss_resim_iface.so \
     vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin \
     vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data2_0x4E.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data2_0x4E.bin \
     vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data1.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data1.bin \

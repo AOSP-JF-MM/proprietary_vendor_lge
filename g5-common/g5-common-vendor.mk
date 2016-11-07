@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/bin/fpc_early_loader:system/bin/fpc_early_loader \
     vendor/lge/g5-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/g5-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/lge/g5-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g5-common/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/lge/g5-common/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/lge/g5-common/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
@@ -82,6 +83,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib64/libfpfactory.so:system/lib64/libfpfactory.so \
     vendor/lge/g5-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \
     vendor/lge/g5-common/proprietary/lib64/liblgkm.so:system/lib64/liblgkm.so \
+    vendor/lge/g5-common/proprietary/lib64/libril.so:system/lib64/libril.so \
+    vendor/lge/g5-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
+    vendor/lge/g5-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
     vendor/lge/g5-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
     vendor/lge/g5-common/proprietary/lib64/libvss_common_core.so:system/lib64/libvss_common_core.so \
     vendor/lge/g5-common/proprietary/lib64/libvss_common_idl.so:system/lib64/libvss_common_idl.so \
@@ -421,6 +425,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libsensor_lge_cal.so:system/vendor/lib64/libsensor_lge_cal.so
 
 ifeq ($(QCPATH),)
@@ -668,7 +673,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
